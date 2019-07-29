@@ -194,7 +194,7 @@
 			var line="";
 			var data2 = []
 			//console.log(line);
-			d3.csv("day2.csv", rowConventerDay1, function (data) {
+			d3.csv("day1.csv", rowConventerDay1, function (data) {
 				day1=data;
 				var time=25200,
 					timeGap=900;
@@ -462,7 +462,7 @@
 		//*******
 		//main
 		//*******
-		d3.csv("day2.csv", rowConventerDay, function (dataday) {
+		d3.csv("day1.csv", rowConventerDay, function (dataday) {
 			day=dataday;
 			old_time = 25200;
 			getTimeIn(day, old_time);
@@ -1457,7 +1457,7 @@
 				.attr("height", height1)
 				.attr("class","svg3");
 		var color=d3.scaleOrdinal(d3.schemeCategory10);
-		d3.csv("conference_day2.csv", function (data) {
+		d3.csv("conference_day1.csv", function (data) {
 			dataset=data;
 			for (var i = 0; i < dataset.length; i++) {
 				var pic=[];
