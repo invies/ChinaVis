@@ -4,4 +4,4 @@
 不足之处在于因为数据量和时间的关系，左右两个图的时间轴没有联动起来。
 
 # 效果展示
-[查看效果](http://www.onechunlin.top/ChinaVis/)
+因为数据量庞大，所以首次加载可能会花费比较多时间[查看效果](http://www.onechunlin.top/ChinaVis/)
